@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav a{
+  text-decoration: none;
+} 
+a:hover{
+  color:black;
+}
+
+span{
+  color:green;
+}
+ 
+.mainContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* .firstContainer { */
+   /* border: 2px solid ;  */
+/* } */
+
+.firstContainer,
+.secondContainer {
+  padding: 30px 0;
+}
+
+.containerOne,
+.containerTwo {
+  /* border: 2px solid black; */
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.containerOne h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 30px;
+  /* border: 2px solid ; */
+  padding:10px 30px;
+}
+
+.containerOne p {
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+padding:10px 30px;
+
+}
+
+.secondContainer {
+  background-color: grey;
+  /* padding: */
+}
+
+.containerTwo{
+    padding-left: 10px;
+    position:relative;
+
+}
+
+.containerTwo p{
+font-family: Lato;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+padding-top: 5px;
+padding-bottom: 10px;
+
+}
+
+.wealthContainer{
+  border-bottom: 8px solid #CC9900;
+  background: #FFBF00;
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 10px 30px;
+
+ }
+
+ .wordContainer{
+     padding:5rem 8px 10rem 30px; 
+    background-color: white;
+    margin-top:10px;
+ }
+
+
+/* .second-container{
+    background-color: grey;
+    position:relative;
+    width: 100%;
+    
+}
+
+.wealth-container{
+    background-color: rgb(243, 187, 82);
+    width:100%;
+    max-width:300px;
+    padding: 10px 5px;
+    position:absolute;
+}
+
+.word-container{
+    background-color: white;
+    width:100%;
+    max-width: 500px;
+} */ 
